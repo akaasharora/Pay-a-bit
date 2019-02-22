@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buyer UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+    <img src="Screen Shot 2019-02-12 at 11.50.03 PM.png">
+    <button id="modal-btn" class="button">Place Order</button>
+    
+        
+
+        <div id="my-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Select a Currency</h2>
+            </div>
+            <div class="modal-body">
+              
+              <input type="radio"  name="currency" value="Bitcoin" > Bitcoin<br>
+              <input type="radio"  name="currency" value="Bitcoin Cash" > Bitcoin Cash<br>
+            </div>
+            <div class="modal-footer">
+                    <button id="confirm-btn" class="modal-button">Confirm</button>
+
+                    <button id="cancel-btn" class="modal-button">Cancel</button>
+
+            </div>
+          </div>
+        </div>
+    
+        <script src="main.js"></script>
+</body>
+</html>

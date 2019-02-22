@@ -1,0 +1,14 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 30px;
+  color: black;
+  width: 40%;
+  overflow-wrap: break-word;
+}
+.left {
+  position:absolute;
+  left:60;
+}

@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buyer UI</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+  <img id= "xyz" src="Screen Shot 2019-02-12 at 11.50.03 PM.png">
+       
+        <div id="my-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <h2>Scan the QR code to pay</h2>
+              <h3 id="amount">Price : <b>$86 USD / 0.022 BTC</b></h3>
+              <img id="qr" src="qrCode.jpg">
+              <div id="loader" hidden></div>
+              <h3 id="success"></h3>
+            </div>
+            <div class="modal-footer">
+
+                    <button id="change-btn" class="modal-button" style="color:green">Proceed</button>
+                    <button id="confirm-btn" class="modal-button" style="color:red">Cancel Payment</button>
+            </div>
+          </div>
+        </div>
+        <script src="main2.js"></script>
+</body>
+</html>
